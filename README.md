@@ -5,7 +5,7 @@
 - pip install -q pycocotools
 
 ## Fotoğrafları etiketleme
-[Labelimg](https://github.com/tzutalin/labelImg) kullanarak xlm dosyaları oluşturabiliriz.
+[Labelimg](https://github.com/tzutalin/labelImg) kullanarak xml dosyaları oluşturabiliriz.
 
 
 ## Kaynaklar
