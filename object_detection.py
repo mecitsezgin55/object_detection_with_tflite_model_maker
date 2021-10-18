@@ -6,10 +6,8 @@ import numpy as np
 from PIL import Image
 import time
 
-
-
 model_path = 'model_plaka.tflite'
-# model_path = 'model_sayac_e50.tflite'
+
 INPUT_IMAGE_URL = "foto/car1.jpg"
 DETECTION_THRESHOLD = 0.4
 
@@ -17,7 +15,6 @@ classes= ["plaka"]
 
 # Define a list of colors for visualization
 COLORS = np.random.randint(0, 255, size=(len(classes), 3), dtype=np.uint8)
-
 
 
 # Define a list of colors for visualization
