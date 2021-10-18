@@ -1,5 +1,9 @@
 # tfite model maker kütüphanesi ile nesne tespiti
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mecitsezginn/object_detection_with_tflite_model_maker/main/img.jpg" width="350" title="hover text">
+</p>
+
 ## Kütüphane kurulumu
 - pip install -q tflite-model-maker
 - pip install -q pycocotools
