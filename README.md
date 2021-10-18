@@ -3,6 +3,11 @@
 ## Kütüphane kurulumu
 - pip install -q tflite-model-maker
 - pip install -q pycocotools
+- pip install tensorflow==2.5
+
+### * dipnot
+tflite model maker kütüphanesi kurulurken tensorflow 2.6 sürümünü de kurmaktadır. tflite dosyasına dönüşüm yapıldığında 2.5 ve 2.6 arasında 
+output farkı bulunmaktadır. Bu nedenle tensorflow 2.5 sürümü kullanılması tavsiye ederim.
 
 ## Fotoğrafları etiketleme
 [Labelimg](https://github.com/tzutalin/labelImg) kullanarak xml dosyaları oluşturabiliriz.
