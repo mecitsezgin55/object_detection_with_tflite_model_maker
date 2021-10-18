@@ -5,4 +5,9 @@
 - pip install -q pycocotools
 
 ## Fotoğrafları etiketleme
-Labelimg [asd](https://github.com/tzutalin/labelImg)
+[Labelimg](https://github.com/tzutalin/labelImg) kullanarak xlm dosyaları oluşturabiliriz.
+
+
+## Kaynaklar
+https://www.tensorflow.org/lite/tutorials/model_maker_object_detection
+https://gilberttanner.com/blog/tflite-model-maker-object-detection
