@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plaka_train</folder>
+	<filename>image309.jpg</filename>
+	<path>C:\Users\mecit.sezgin\Desktop\plaka\plaka_train\image309.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2015</width>
+		<height>3022</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plaka</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>886</xmin>
+			<ymin>1769</ymin>
+			<xmax>1115</xmax>
+			<ymax>1826</ymax>
+		</bndbox>
+	</object>
+</annotation>

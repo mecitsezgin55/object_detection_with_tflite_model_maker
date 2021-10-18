@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plaka_test</folder>
+	<filename>image266.jpg</filename>
+	<path>C:\Users\mecit.sezgin\Desktop\plaka\plaka_test\image266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2500</width>
+		<height>1667</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plaka</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>961</xmin>
+			<ymin>1346</ymin>
+			<xmax>1564</xmax>
+			<ymax>1496</ymax>
+		</bndbox>
+	</object>
+</annotation>
