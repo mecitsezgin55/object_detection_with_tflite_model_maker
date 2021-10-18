@@ -4,7 +4,7 @@
 - pip install -q tflite-model-maker
 - pip install -q pycocotools
 
-### *dipnot
+### * dipnot
 
 ## Fotoğrafları etiketleme
 [Labelimg](https://github.com/tzutalin/labelImg) kullanarak xml dosyaları oluşturabiliriz.
