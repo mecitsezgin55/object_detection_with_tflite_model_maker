@@ -3,12 +3,11 @@ import cv2
 import tensorflow as tf
 import numpy as np
 
-from PIL import Image
 import time
 
 model_path = 'model_plaka.tflite'
 
-INPUT_IMAGE_URL = "foto/car1.jpg"
+INPUT_IMAGE_URL = "foto/car2.jpg"
 DETECTION_THRESHOLD = 0.4
 
 classes= ["plaka"]
