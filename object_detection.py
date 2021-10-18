@@ -1,3 +1,4 @@
+
 import cv2
 import tensorflow as tf
 import numpy as np
@@ -134,12 +135,4 @@ cv2.imwrite("img.jpg", detection_result_image)
 
 #model predict time
 print("zaman:", time.time() - ilk)
-
-
-
-
-
-
-
-
 
