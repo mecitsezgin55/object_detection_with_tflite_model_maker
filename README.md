@@ -5,8 +5,8 @@
 </p>
 
 ## Kütüphane kurulumu
-- pip install -q tflite-model-maker
-- pip install -q pycocotools
+- pip install tflite-model-maker
+- pip install pycocotools
 - pip install tensorflow==2.5
 
 ### * dipnot
