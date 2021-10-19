@@ -20,7 +20,7 @@ from tflite_model_maker.object_detector import EfficientDetSpec
 ```
 "EfficientDetSpec" üzerine crtl + mouse left yaptığımızda 
 "C:/ProgramData/Anaconda3/lib/site-packages/tensorflow_examples/lite/model_maker/core/task/model_spec/object_detector_spec.py" 
-kütüphanesine yönlendirecek.
+dosyasına yönlendirecek.
 
 ```
 class EfficientDetModelSpec(object):
