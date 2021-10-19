@@ -22,6 +22,39 @@ from tflite_model_maker.object_detector import EfficientDetSpec
 "C:/ProgramData/Anaconda3/lib/site-packages/tensorflow_examples/lite/model_maker/core/task/model_spec/object_detector_spec.py" 
 kütüphanesine yönlendirecek.
 
+```
+class EfficientDetModelSpec(object):
+  """A specification of the EfficientDet model."""
+
+  compat_tf_versions = compat.get_compat_tf_versions(2)
+
+  def __init__(self,
+               model_name: str,
+               uri: str,
+               hparams: str = '',
+               model_dir: Optional[str] = None,
+               epochs: int = 50,
+               batch_size: int = 64,
+               steps_per_execution: int = 1,
+               moving_average_decay: int = 0,
+               var_freeze_expr: str = '(efficientnet|fpn_cells|resample_p6)',
+               tflite_max_detections: int = 25,
+               strategy: Optional[str] = None,
+               tpu: Optional[str] = None,
+               gcp_project: Optional[str] = None,
+               tpu_zone: Optional[str] = None,
+               use_xla: bool = False,
+               profile: bool = False,
+               debug: bool = False,
+               tf_random_seed: int = 111111,
+               verbose: int = 0) -> None:
+```
+
+```
+tflite_max_detections: int = 10,
+```
+değerini değiştirerek model çıktı sayısını değiştirebiliriz.
+
 ## Fotoğrafları etiketleme
 [Labelimg](https://github.com/tzutalin/labelImg) kullanarak xml dosyaları oluşturabiliriz.
 
